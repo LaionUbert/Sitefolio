@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+body {
+    background-color: #E8F3D6;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*Pallete Collors:
+Background: E8F3D6
+Card Flaps: FFDCA9
+Card Content Background: FAAB78
+Other: FCF9BE*/
+
+
+/*Headers*/
+.header {
+    color: black;   
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    padding: 5px;
+    width: 100%;
+    background: #FAAB78;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.header img {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 70px;
+    width: 70px;
+}
+
+
+/*Text Elements*/
+.titulo1 {
+    color: black;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.subtitulo {
+    color: black;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.paragrafo {
+    margin-left: 5%;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*Navbar*/
+.navbar {
+    list-style-type: none;
+    margin: 15px 15px 0 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 5px;
+    z-index: 2;
+    background-color: #FFDCA9;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbutton {
+    float: left;
+}
+
+.navbutton a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 11.9px;
+    text-decoration: none;
+}
+
+.navbutton:hover {
+    background-color: #FCF9BE;
+}
+
+.active {
+    background-color: #FAAB78;
+}
+
+
+/*History*/
+.card {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 25px;
+    height: 400px;
+    width: 85vw;
+    max-width: 1000px;
+    background: #FAAB78;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+}
+
+.cover::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 50%;
+    background: #FFDCA9;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+}
+
+.cover::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 50%;
+    right: 0;
+    background: #FFDCA9;
+    background-position: -200px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+}
+
+
+.card:hover .cover::before {
+    transform: translateX(-100%);
+}
+
+.card:hover .cover::after {
+    transform: translateX(100%);
+}
+
+.desc {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: justify;
+    padding: 5%;
+    color: #FCF9BE;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.cardimg {
+    height: 400px; 
+    width: 85vw; 
+    max-width: 1000px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(60%);
+    z-index: 0;
+}
+
+.contTitulo {
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contDesc {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+/*About*/
+.aboutimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    max-height: 600px;
+    height: 800px; 
+    width: 85vw; 
+    max-width: 1000px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(60%);
+}
+
+
+/*Visit cards*/
+.selection {
+    margin-bottom: 15px;
+    padding: 15px;
+    
+}
+
+.selectioncont{
+    padding: 15px;
+    
+}
+
+.selectiondesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAAB78;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 500px;
+    border-radius: 25px;
+    border-style: solid;
+    margin-bottom: 15px;
+
+}
+
+.selectiondesc a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.selecionicon{
+    display: flex;
+    justify-content: right;
+    width: 50px;
+    height: 50px;
+}
