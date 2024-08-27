@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 100%;
+    padding: 5px;
+    margin-top: 25px;
+    font-family: roboto, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.header h1 {
+    text-align: center;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.header img {
+    height: 70px;
+    width: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+    min-width: 250px;
+    width: 300px;
+    height: auto;
+    border-style: none;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+.cardimg {
+    height: 100px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.cardbody {
+    height: max-content;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+.cardtitle {
+    display: inline;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardbox {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardtext {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 10px;
+    border-style: none;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+    color: whitesmoke;
+    background-color: #25005b;
+}
+
+
+.button:hover {
+    background-color: #000000;
+}
+
+
+.footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #19376D;
+    color: whitesmoke;
+}
