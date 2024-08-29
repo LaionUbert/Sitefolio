@@ -1,4 +1,4 @@
-# Sirefolio - Laion Ubert Central
+# Sitefolio - Laion Ubert Central
 ### Descrição
 - Website dedicado para a exibição dos meus projetos e informações sobre mim de maneira fácil e intuitiva. 
 - Atualmente feito inteiramente com HTML e JavaScript e hospedado pelo Netlify
