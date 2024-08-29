@@ -1,10 +1,12 @@
 # Sirefolio - Laion Ubert Central
-### Description
-- Website dedicado para a exibição dos meus projetos e infomrações sobre mim de maneira fácil e intuitiva.  
+### Descrição
+- Website dedicado para a exibição dos meus projetos e informações sobre mim de maneira fácil e intuitiva. 
+- Atualmente feito inteiramente com HTML e JavaScript e hospedado pelo Netlify
 
-### Table of contents
+### Índice
 - [Accesso](#accesso)
 - [Features](#features)
+- [Planos](#planos)
 - [Licença](#licença)
 - [Contato](#contato)
 
@@ -15,9 +17,15 @@
 
 
 ### Features
-- Visuzlizar resumo dos projetos
+- Visualizar resumo dos projetos
 - Acessar repositórios do Github
 - Baixar softwares e repositórios (WIP)
+
+
+### Planos
+- Curto prazo: Incluir novos projetos dentro do website
+- Médio prazo: Permitir o download dos projetos e repositórios pelo website
+- Longo prazo: Hospedar o website em servidor local
 
 
 ### Licença
