@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+.sidebar{
+    background-color: black;
+    height: 100px;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    margin: 2em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: black;
+}
+
+nav a {
+    display: flex;
+    margin-right: 5rem ;
+}
