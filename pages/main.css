@@ -5,17 +5,33 @@
 
 
 
-.sidebar{
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containter_header {
+}
+
+.header img {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 70px;
+    width: 70px;
+}
+
+.containter_sidebar{
     background-color: black;
     height: 100px;
     margin: 0;
+    margin-top: 0;
+    display: flex;
 }
 
 nav{
     display: flex;
     justify-content: left;
-    margin: 2em;
-    text-decoration: none;
+    margin-top: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     background-color: black;
@@ -23,5 +39,7 @@ nav{
 
 nav a {
     display: flex;
+    text-decoration: none;
     margin-right: 5rem ;
+    height: 50px;
 }
